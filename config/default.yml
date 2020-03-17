@@ -8,4 +8,5 @@ db:
   synchronize: false
 
 jwt:
+  secret: 'topSecret51'
   expiresIn: 3600
