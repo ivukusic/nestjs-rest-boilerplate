@@ -2,17 +2,21 @@
 
 ## Description
 
-NestJS boilerplate with examples of REST API + JWT authentication with passport
+NestJS boilerplate with examples of REST API + JWT authentication with passport. Using postgreSQL with typeORM.
+Typescript.
 
 ## Installation
 
 ```bash
 
-$ git clone git@bitbucket.org:ivanvukusic15/nestjs-boilerplate.git
+$ git clone git@github.com:ivukusic/nestjs-rest-boilerplate.git
 
-$ cd nestjs-boilerplate
+$ cd nestjs-rest-boilerplate
 
 $ yarn install
+
+# create and start new docker container for postgreSQL
+$ docker-compose up -d
 ```
 
 ## Running the app

@@ -3,8 +3,8 @@ server:
 
 db:
   type: 'postgres'
-  port: 32770
-  database: taskmanagement
+  port: 5432
+  database: task_management
   synchronize: false
 
 jwt:

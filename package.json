@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-task-management",
+  "name": "nestjs-rest-boilerplate",
   "version": "0.0.1",
   "description": "NESTJS boilerplate with REST API",
   "author": {
