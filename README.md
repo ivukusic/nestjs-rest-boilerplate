@@ -32,6 +32,8 @@ $ yarn start:dev
 $ yarn start:prod
 ```
 
+Open **http://localhost:8000/api/** for swagger documentation to see endpoint details
+
 ## Test
 
 ```bash
@@ -47,5 +49,7 @@ $ yarn test:cov
 
 ## Stay in touch
 
-- Author - [Ivan Vukušić](ivanvukusic15@gmail.com)
-- Website - [https://nordit.co/](https://nordit.co/)
+- **Author - [Ivan Vukušić](ivanvukusic15@gmail.com)**
+- **Website - [https://nordit.co/](https://nordit.co/)**
+
+Feature/Hc-351/As-a-Hunter,-I-want-to-register,new-endpoint-for-nickName

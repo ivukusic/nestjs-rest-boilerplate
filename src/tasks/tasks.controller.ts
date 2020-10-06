@@ -22,6 +22,7 @@ import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
 import { TaskStatusValidationPipe } from './pipes/tasks-status-validation.pipe';
 import { Task } from './task.entity';
 import { TaskStatus } from './task-status.enum';
+import { ApiBody } from '@nestjs/swagger';
 
 @Controller('tasks')
 @UseGuards(AuthGuard('jwt'))
@@ -48,6 +49,7 @@ export class TasksController {
   }
 
   @Patch('/:id/status')
+  @ApiBody({ enum: TaskStatus })
   updateTaskStatus(
     @Param('id') id: number,
     @Body('status', TaskStatusValidationPipe) status: TaskStatus,
